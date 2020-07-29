@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SignUp</title>
+    <link rel = "stylesheet" href = "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"integrity = "sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin = "anonymous">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.ico">
+    <script src = "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity = "sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin = "anonymous"></script>
+    <script src = "https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity = "sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin = "anonymous"></script>
+    <script type="text/javascript" src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="https://wzrd.in/standalone/formdata-polyfill"></script>
+    <script src="https://wzrd.in/standalone/promise-polyfill@latest"></script>
+    <script src="https://wzrd.in/standalone/whatwg-fetch@latest"></script>
+
+</head>
+
+<body style="padding-top:10%;">
+<section class="testimonial py-5" id="testimonial">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 py-5 text-white text-center" style="background-color:#1a98d9;">
+                <div class=" ">
+                    <div class="card-body">
+                        <img src="images/qgiskenya_logo.png" style="width:30%">
+                        <h2 class="py-3">Registration</h2>
+                        <p>Join Us today to collaborate on projects, ask for help, and attend exciting QGIS User Group meetings in Kenya.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-8 py-5 border">
+                <h4 class="pb-4">Please fill your details</h4>
+                <form name="contact form" action="registration.php" method="post">
+                    <div class="form-row">
+                        <div class="form-group col-md-9">
+                          <input id="Full Name" name="fullname" placeholder="Full Name *" class="form-control" type="text">
+                        </div>
+                      </div><br>
+
+                        <div class="form-row">
+                        <div class="form-group col-md-9">
+                          <input type="email" name="email" class="form-control" placeholder="Email *">
+                        </div>
+                      </div><br>
+
+                    <div class="form-row">
+                        <div class="form-group col-md-9">
+                            <input id="Mobile No." name="mobilenumber" placeholder="Mobile No. *" class="form-control" required="required" type="text">
+                        </div>
+                    </div><br>
+                    <div class="form-row">
+                    <button type="submit" id="btnSubmit" class="btn btn-primary">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script src = "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity = "sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin = "anonymous">
+</script>
+</body>
+</html>
